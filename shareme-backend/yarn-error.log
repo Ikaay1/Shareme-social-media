@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\toain\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\toain\AppData\Roaming\npm\node_modules\vendor;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\toain\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\toain\AppData\Local\Programs\Python\Python37-32\;C:\Users\toain\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\toain\AppData\Local\Programs\Python\Python39\;C:\Users\toain\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 213.5744.38\bin;;C:\php;C:\Users\toain\AppData\Roaming\npm;C:\Users\toain\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:691:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)
+      at TLSSocket.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "sharewejsm",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Mgbemele Ikechukwu <mgbemeleikechukwu@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.29.3",
+      "@sanity/core": "^2.29.3",
+      "@sanity/default-layout": "^2.29.3",
+      "@sanity/default-login": "^2.29.3",
+      "@sanity/desk-tool": "^2.29.3",
+      "@sanity/eslint-config-studio": "^2.0.0",
+      "@sanity/vision": "^2.29.3",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
